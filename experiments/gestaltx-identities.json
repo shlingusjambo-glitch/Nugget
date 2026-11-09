@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {"id": "17pro", "name": "iPhone 17 Pro", "product": "iPhone18,1", "board": "V53AP", "platform": "t8150"},
+    {"id": "18pro", "name": "iPhone 18 Pro", "product": "iPhone19,2", "board": "V63AP", "platform": "t8160"}
+  ],
+  "sources": [
+    "https://api.ipsw.me/v4/devices",
+    "Apple Xcode 27.2 CoreSimulator iPhone 18 Pro.simdevicetype/Contents/Resources/profile.plist: modelIdentifier=iPhone19,2, productClass=V63",
+    "https://github.com/leminlimez/Nugget/blob/main/src/tweaks/tweak_loader.py"
+  ],
+  "verifiedOn": "2026-11-09",
+  "note": "Device metadata only. No Expressive Voices unlock has been verified. Do not run Nugget restore on iOS 27."
+}
